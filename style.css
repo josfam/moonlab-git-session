@@ -2,14 +2,49 @@
 	box-sizing: border-box;
 }
 
-form {
+body{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+form {
 	background-color: blanchedalmond;
 	padding: 40px;
-	width: 50%;
+	width: 400px;
 }
+
+fieldset{
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.legend-form{
+	background-color: hotpink;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.fieldset-input{
+	background-color: #fff;
+	padding: 2px 10px 7px 15px;
+}
+
+h2{
+	margin-bottom: 0;
+}
+
+input{
+	padding: 0;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	font-size: 16px;
+}
+
+
 
 ul {
 	list-style: none;
@@ -29,5 +64,10 @@ button {
 	background-color: hotpink;
 	border: none;
 	border-radius: 5px;
+	width: 82%;
+	cursor: pointer;
 }
 
+button:hover{
+	background-color: rgb(221, 51, 136);
+}
